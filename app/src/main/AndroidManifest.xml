@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/pizza1"
+        android:label="Pizza Marrakesh"
+        android:roundIcon="@mipmap/pizza1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PizzaApp">
+
+        <activity
+            android:name="com.example.pizzaapp.ui.MarrakeshSplash"
+            android:exported="true"
+            android:theme="@style/Theme.PizzaApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.pizzaapp.ui.MarrakeshMenu"
+            android:exported="false"
+            android:label="Le Menu Marrakesh" />
+
+        <activity
+            android:name="com.example.pizzaapp.ui.MarrakeshVault"
+            android:exported="false"
+            android:label="Coffre à Recettes" />
+
+    </application>
+
+</manifest>

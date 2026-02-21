@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pizza_black">
+
+    <!-- Logo central -->
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/pizza1" />
+
+    <!-- Titre de l'application -->
+    <TextView
+        android:id="@+id/txt_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Pizza Marrakesh"
+        android:textAlignment="center"
+        android:textColor="@color/pizza_yellow"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <!-- Sous-titre élégant -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="L'Art de la Pizza"
+        android:textColor="@color/pizza_white"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <!-- Barre de progression jaune -->
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:indeterminateTint="@color/pizza_yellow" />
+
+</RelativeLayout>

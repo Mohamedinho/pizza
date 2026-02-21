@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PizzaApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Palette "Marrakesh Luxury" -->
+        <item name="colorPrimary">@color/pizza_black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/pizza_yellow</item>
+
+        <item name="android:windowBackground">@color/pizza_black</item>
+        <item name="android:textColorPrimary">@color/pizza_white</item>
+    </style>
+
+    <!-- Style personnalisé pour la barre de recherche -->
+    <style name="MarrakeshSearchStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">@color/pizza_white</item>
+        <item name="android:editTextColor">@color/pizza_white</item>
+        <item name="android:textColorHint">@color/pizza_white</item>
+        <item name="android:searchIcon">@android:drawable/ic_menu_search</item>
+        <item name="android:tint">@color/pizza_yellow</item>
+    </style>
+</resources>
